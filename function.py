@@ -9,4 +9,7 @@ def imshow(X, resize=None):
     We should be able to install this package in Google Colab from your Git
     repo.
     """
-pass
+
+    resized_array = np.resize(X, resize)
+
+    return resized_array
